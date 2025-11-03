@@ -12,3 +12,12 @@ body {
 main {
 	flex: 1;
 }
+
+.vanish{
+	display: none;
+}
+.modal-body{
+	font-size: 18px;
+	padding-top: 3px;
+}
+
