@@ -7,13 +7,13 @@
 			<div class="modal-body">
 				¿Desea cargar los registros del INEGI a la base de datos local?
 			</div>
-			<div class="modal-footer py-1">
+			<div id="modal-footer" class="modal-footer py-1">
 				<div class="modal-options">
 					<button type="button" class="btn btn-sm btn-outline-secondary" onclick="cargaInegi()">Aceptar</button>
 					<button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Salir</button>
 				</div>
 			</div>
-			<div class="moda-loading px-2 pb-1 vanish">
+			<div id="modal-loading" class="px-2 pb-1 vanish">
 				<div class="progress">
 					<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
 				</div>
