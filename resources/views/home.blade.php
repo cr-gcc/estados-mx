@@ -2,38 +2,14 @@
 @section('title', 'Home')
 @section('content')
 	<div class="container my-5">
-			<h2 class="mb-4">Usuarios</h2>
-
-			<table id="usersTable" class="table table-striped table-bordered">
-					<thead>
-							<tr>
-									<th>ID</th>
-									<th>Nombre</th>
-									<th>Email</th>
-									<th>Rol</th>
-							</tr>
-					</thead>
-					<tbody>
-							<tr>
-									<td>1</td>
-									<td>Cris</td>
-									<td>cris@email.com</td>
-									<td>Admin</td>
-							</tr>
-							<tr>
-									<td>2</td>
-									<td>Laura</td>
-									<td>laura@email.com</td>
-									<td>Usuario</td>
-							</tr>
-					</tbody>
-			</table>
+		<h1>
+			Estados de México
+		</h1>
+		<div id="pb-estados" class="progress vanish">
+			<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 105%"></div>
+		</div>
+		<h2 id="no-estados" class="vanish">
+			<span>No se encontraron registros</span>
+		</h2>
 	</div>
-@endsection
-@section('scripts')
-	<script>
-		$(document).ready(function() {
-			$('#usersTable').DataTable();
-		});
-	</script>
 @endsection
